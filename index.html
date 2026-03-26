@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Affonso Barbershop</title>
+
+    <!-- Tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Fonte -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body class="bg-[#0b0b0b] text-[#f5efe6] font-[Montserrat]">
+
+    <!-- HEADER -->
+    <header class="fixed w-full z-50 bg-[#0b0b0b]/80 backdrop-blur border-b border-white/10">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+
+            <div>
+                <p class="text-xs tracking-[0.4em] text-[#3289c6] uppercase">Affonso</p>
+                <h1 class="text-lg tracking-[0.2em] uppercase">Barbershop</h1>
+            </div>
+
+            <nav class="hidden md:flex gap-8 text-sm text-white/70">
+                <a href="#sobre" class="hover:text-[#c7a86d]">Sobre</a>
+                <a href="#servicos" class="hover:text-[#c7a86d]">Serviços</a>
+                <a href="#contato" class="hover:text-[#c7a86d]">Contato</a>
+            </nav>
+
+        </div>
+    </header>
+
+    <!-- HERO -->
+    <section class="min-h-screen flex items-center">
+        <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-10 items-center">
+
+            <!-- TEXTO -->
+            <div>
+                <p class="text-sm tracking-[0.4em] text-[#c7a86d] uppercase mb-4">
+                    Barbearia Premium
+                </p>
+
+                <h2 class="text-5xl md:text-7xl font-semibold leading-tight">
+                    Estilo, presença e uma experiência que marca.
+                </h2>
+
+                <p class="mt-6 text-white/70 max-w-lg">
+                    A Affonso Barbershop combina técnica, estilo e atendimento de alto nível
+                    para entregar mais do que um corte: uma experiência completa.
+                </p>
+
+                <div class="mt-8 flex gap-4">
+                    <a href="https://sites.appbarber.com.br/barbeariaaffons-ermw?service=1147667&employee=24148343&utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnhjgGXf1E4e21Mb4ccIi31S329uRRqLbMcuVvwO5FEWL6OpXCcNHR-SlG92I_aem_7OVPAf8029aRx1jEfIh2WA"
+                        target="_blank"
+                        class="bg-[#3289c6] text-black px-6 py-3 rounded-full uppercase text-sm tracking-widest">
+                        Agendar horário
+                    </a>
+
+                    <a href="#servicos" class="border border-white/20 px-6 py-3 rounded-full uppercase text-sm">
+                        Ver serviços
+                    </a>
+                </div>
+            </div>
+
+            <!-- CARDS DIREITA -->
+            <div class="grid grid-cols-2 gap-4">
+
+                <div class="rounded-3xl border border-white/10 p-4 bg-white/5 backdrop-blur">
+                    <div class="h-64 rounded-2xl bg-gradient-to-br from-[#2e2a25] to-black flex items-end p-4">
+                        <div>
+                            <p class="text-xs text-[#3289c6] uppercase">Ambiente</p>
+                            <p class="text-xl">Visual premium</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="rounded-3xl border border-white/10 p-4 bg-white/5">
+                    <div class="h-64 rounded-2xl bg-gradient-to-br from-[#1b1b1b] to-[#3a3127] flex items-end p-4">
+                        <div>
+                            <p class="text-xs text-[#3289c6] uppercase">Experiência</p>
+                            <p class="text-xl">Atendimento de verdade</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Sobre -->
+    <section id="sobre" class="mx-auto max-w-7xl px-6 py-20">
+        <div class="grid gap-10 md:grid-cols-[1.1fr_0.9fr] md:items-center">
+
+            <div>
+                <p class="text-sm uppercase tracking-[0.4em] text-[#3289c6]">Sobre a marca</p>
+                <h3 class="mt-4 text-4xl font-semibold md:text-5xl">
+                    Uma barbearia feita para quem valoriza presença.
+                </h3>
+
+                <p class="mt-6 max-w-2xl text-white/75 leading-8">
+                    A Affonso Barbershop nasce com uma proposta clara: entregar mais do que um serviço,
+                    mas uma experiência completa. Ambiente elegante, atendimento profissional e um visual
+                    pensado para homens que valorizam estilo, cuidado e presença.
+                </p>
+            </div>
+
+            <div
+                class="rounded-[2rem] border border-[#3289c6]/20 bg-[linear-gradient(135deg,rgba(199,168,109,0.12),rgba(255,255,255,0.03))] p-8">
+                <div class="grid gap-6 sm:grid-cols-2">
+
+                    <div>
+                        <p class="text-3xl font-semibold text-[#3289c6]">+ presença</p>
+                        <p class="mt-2 text-sm text-white/70">
+                            Identidade visual forte e posicionamento premium.
+                        </p>
+                    </div>
+
+                    <div>
+                        <p class="text-3xl font-semibold text-[#3289c6]">+ confiança</p>
+                        <p class="mt-2 text-sm text-white/70">
+                            Atendimento profissional e ambiente de alto padrão.
+                        </p>
+                    </div>
+
+                    <div>
+                        <p class="text-3xl font-semibold text-[#3289c6]">+ estilo</p>
+                        <p class="mt-2 text-sm text-white/70">
+                            Cortes modernos, clássicos e acabamentos impecáveis.
+                        </p>
+                    </div>
+
+                    <div>
+                        <p class="text-3xl font-semibold text-[#3289c6]">+ experiência</p>
+                        <p class="mt-2 text-sm text-white/70">
+                            Um espaço pensado para fazer o cliente voltar.
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Serviços -->
+    <section id="servicos" class="border-y border-white/10 bg-white/[0.02]">
+        <div class="mx-auto max-w-7xl px-6 py-20">
+
+            <p class="text-sm uppercase tracking-[0.4em] text-[#3289c6]">Serviços</p>
+
+            <div class="mt-4 flex flex-col gap-4 md:flex-row md:items-end md:justify-between">
+                <h3 class="text-4xl font-semibold md:text-5xl">
+                    Serviços pensados para manter o seu visual em outro nível.
+                </h3>
+
+                <p class="max-w-xl text-white/70">
+                    Você pode trocar os textos e valores depois, mas essa estrutura já deixa a apresentação premium.
+                </p>
+            </div>
+
+            <div class="mt-12 grid gap-6 md:grid-cols-3">
+
+                <div
+                    class="rounded-[2rem] border border-white/10 bg-black/40 p-7 shadow-xl transition duration-300 hover:-translate-y-1 hover:border-[#3289c6]/40">
+                    <p class="text-sm uppercase tracking-[0.28em] text-[#3289c6]">a partir de R$ 45</p>
+                    <h4 class="mt-4 text-2xl font-semibold">Corte Premium</h4>
+                    <p class="mt-4 leading-7 text-white/70">
+                        Corte com acabamento refinado, atenção aos detalhes e resultado pensado para valorizar seu
+                        estilo.
+                    </p>
+                </div>
+
+                <div
+                    class="rounded-[2rem] border border-white/10 bg-black/40 p-7 shadow-xl transition duration-300 hover:-translate-y-1 hover:border-[#3289c6]/40">
+                    <p class="text-sm uppercase tracking-[0.28em] text-[#3289c6]">a partir de R$ 35</p>
+                    <h4 class="mt-4 text-2xl font-semibold">Barba Tradicional</h4>
+                    <p class="mt-4 leading-7 text-white/70">
+                        Desenho e alinhamento da barba com acabamento preciso para manter presença e personalidade.
+                    </p>
+                </div>
+
+                <div
+                    class="rounded-[2rem] border border-white/10 bg-black/40 p-7 shadow-xl transition duration-300 hover:-translate-y-1 hover:border-[#3289c6]/40">
+                    <p class="text-sm uppercase tracking-[0.28em] text-[#3289c6]">a partir de R$ 75</p>
+                    <h4 class="mt-4 text-2xl font-semibold">Combo Affonso</h4>
+                    <p class="mt-4 leading-7 text-white/70">
+                        Corte + barba em uma experiência completa para quem busca praticidade sem abrir mão da
+                        qualidade.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="time" class="mx-auto max-w-7xl px-6 py-20">
+        <p class="text-sm uppercase tracking-[0.4em] text-[#c7a86d]">Nosso time</p>
+
+        <h3 class="mt-4 text-4xl font-semibold md:text-5xl">
+            Profissionais que fazem parte da experiência.
+        </h3>
+
+        <p class="mt-4 max-w-2xl text-white/70 leading-8">
+            Mais do que barbeiros, profissionais que representam o padrão, o cuidado e a identidade da Affonso
+            Barbershop.
+        </p>
+
+        <div class="mt-12 grid gap-6 md:grid-cols-3">
+
+            <!-- CARD 1 -->
+            <div
+                class="group rounded-[2rem] overflow-hidden border border-white/10 bg-white/[0.03] backdrop-blur-sm transition duration-500 hover:-translate-y-2 hover:border-[#c7a86d]/40 hover:shadow-[0_0_40px_rgba(199,168,109,0.10)]">
+
+                <div class="relative h-50 overflow-hidden">
+                    <img src="./assets/images/affonso.png" alt="Affonso"
+                        class="h-full w-full object-cover transition duration-700 group-hover:scale-110">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
+
+                    <div class="absolute bottom-4 left-4">
+                        <p class="text-xs uppercase tracking-[0.3em] text-[#c7a86d]">01</p>
+                    </div>
+                </div>
+
+                <div class="p-6">
+                    <h4 class="text-2xl font-semibold">Affonso</h4>
+                    <p class="mt-2 text-white/65">Founder Barber</p>
+                    <p class="mt-4 leading-7 text-white/55">
+                        Especialista em presença, acabamento e atendimento premium para clientes que valorizam estilo e
+                        experiência.
+                    </p>
+                </div>
+            </div>
+
+            <!-- CARD 2 -->
+            <div
+                class="group rounded-[2rem] overflow-hidden border border-white/10 bg-white/[0.03] backdrop-blur-sm transition duration-500 hover:-translate-y-2 hover:border-[#c7a86d]/40 hover:shadow-[0_0_40px_rgba(199,168,109,0.10)]">
+
+                <div class="relative h-80 overflow-hidden">
+                    <img src="./assets/images/barbeiro2.jpg" alt="Barbeiro especialista em cortes modernos"
+                        class="h-full w-full object-cover transition duration-700 group-hover:scale-110">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
+
+                    <div class="absolute bottom-4 left-4">
+                        <p class="text-xs uppercase tracking-[0.3em] text-[#c7a86d]">02</p>
+                    </div>
+                </div>
+
+                <div class="p-6">
+                    <h4 class="text-2xl font-semibold">Nome do barbeiro</h4>
+                    <p class="mt-2 text-white/65">Especialista em cortes modernos</p>
+                    <p class="mt-4 leading-7 text-white/55">
+                        Foco em cortes atuais, fade preciso e resultado alinhado ao estilo de cada cliente.
+                    </p>
+                </div>
+            </div>
+
+            <!-- CARD 3 -->
+            <div
+                class="group rounded-[2rem] overflow-hidden border border-white/10 bg-white/[0.03] backdrop-blur-sm transition duration-500 hover:-translate-y-2 hover:border-[#c7a86d]/40 hover:shadow-[0_0_40px_rgba(199,168,109,0.10)]">
+
+                <div class="relative h-80 overflow-hidden">
+                    <img src="./assets/images/barbeiro3.jpg" alt="Barbeiro especialista em barba e acabamento"
+                        class="h-full w-full object-cover transition duration-700 group-hover:scale-110">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
+
+                    <div class="absolute bottom-4 left-4">
+                        <p class="text-xs uppercase tracking-[0.3em] text-[#c7a86d]">03</p>
+                    </div>
+                </div>
+
+                <div class="p-6">
+                    <h4 class="text-2xl font-semibold">Nome do barbeiro</h4>
+                    <p class="mt-2 text-white/65">Barba e acabamento</p>
+                    <p class="mt-4 leading-7 text-white/55">
+                        Desenho de barba, acabamento fino e atenção aos detalhes para um visual mais marcante.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Galeria -->
+    <section id="galeria" class="border-y border-white/10 bg-white/[0.02]">
+        <div class="mx-auto max-w-7xl px-6 py-20">
+
+            <p class="text-sm uppercase tracking-[0.4em] text-[#c7a86d]">Galeria</p>
+
+            <h3 class="mt-4 text-4xl font-semibold md:text-5xl">
+                Ambiente, estilo e detalhes da experiência.
+            </h3>
+
+            <p class="mt-4 max-w-2xl text-white/70 leading-8">
+                Cada detalhe da Affonso Barbershop foi pensado para entregar uma experiência visual e presencial
+                marcante.
+            </p>
+
+            <!-- GRID -->
+            <div class="mt-12 grid grid-cols-2 gap-4 md:grid-cols-3">
+
+                <!-- ITEM -->
+                <div class="group relative h-52 overflow-hidden rounded-[1.6rem] border border-white/10 md:h-72">
+                    <img src="./assets/images/galeria (1).png"
+                        class="w-full h-full object-cover transition duration-700 group-hover:scale-110">
+
+                    <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition"></div>
+
+                    <div class="absolute bottom-4 left-4 opacity-0 group-hover:opacity-100 transition">
+                        <p class="text-sm text-white">Ambiente premium</p>
+                    </div>
+                </div>
+
+                <!-- ITEM -->
+                <div class="group relative h-52 overflow-hidden rounded-[1.6rem] border border-white/10 md:h-72">
+                    <img src="./assets/images/galeria (2).png"
+                        class="w-full h-full object-cover transition duration-700 group-hover:scale-110">
+                    <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition"></div>
+                </div>
+
+                <!-- ITEM -->
+                <div class="group relative h-52 overflow-hidden rounded-[1.6rem] border border-white/10 md:h-72">
+                    <img src="./assets/images/galeria (3).png"
+                        class="w-full h-full object-cover transition duration-700 group-hover:scale-110">
+                    <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition"></div>
+                </div>
+
+                <!-- ITEM -->
+                <div class="group relative h-52 overflow-hidden rounded-[1.6rem] border border-white/10 md:h-72">
+                    <img src="./assets/images/galeria (4).png"
+                        class="w-full h-full object-cover transition duration-700 group-hover:scale-110">
+                    <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition"></div>
+                </div>
+
+                <!-- ITEM -->
+                <div class="group relative h-52 overflow-hidden rounded-[1.6rem] border border-white/10 md:h-72">
+                    <img src="./assets/images/espaco (1).png"
+                        class="w-full h-full object-cover transition duration-700 group-hover:scale-110">
+                    <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition"></div>
+                </div>
+
+                <!-- ITEM -->
+                <div class="group relative h-52 overflow-hidden rounded-[1.6rem] border border-white/10 md:h-72">
+                    <img src="./assets/images/espaco (2).png"
+                        class="w-full h-full object-cover transition duration-700 group-hover:scale-110">
+                    <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition"></div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Contato -->
+    <section id="contato" class="mx-auto max-w-7xl px-6 py-20">
+        <div class="grid gap-8 md:grid-cols-[1fr_1.1fr]">
+
+            <div class="rounded-[2rem] border border-white/10 bg-white/[0.03] p-8">
+                <p class="text-sm uppercase tracking-[0.4em] text-[#3289c6]">Contato</p>
+
+                <h3 class="mt-4 text-4xl font-semibold">
+                    Pronto para marcar seu horário?
+                </h3>
+
+                <p class="mt-5 max-w-lg leading-8 text-white/70">
+                    Entre em contato pelo WhatsApp ou agende seu horario no AppBarber e nos acompanhe nosso Instagram e
+                    venha viver a experiência da Affonso Barbershop.
+                </p>
+
+                <div class="mt-8 space-y-4 text-white/80">
+                    <p>📍 Av. Tancredo de Almeida Neves, 1047, Ferraz de Vasconcelos - SP</p>
+                    <p>🕘 Terça a sábado • 09h às 20h</p>
+                    <p>🕘 Segunda e Domingo • 09h às 15h</p>
+                    <p>📲 <a href="https://sites.appbarber.com.br/barbeariaaffons-ermw?service=1147667&employee=24148343&utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnhjgGXf1E4e21Mb4ccIi31S329uRRqLbMcuVvwO5FEWL6OpXCcNHR-SlG92I_aem_7OVPAf8029aRx1jEfIh2WA"
+                            target="_blank">AppBarber</a></p>
+                    <p>📷 <a href="https://www.instagram.com/barbearia_affonso/">Instagram</a></p>
+                </div>
+
+                <a href="https://sites.appbarber.com.br/barbeariaaffons-ermw?service=1147667&employee=24148343&utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnhjgGXf1E4e21Mb4ccIi31S329uRRqLbMcuVvwO5FEWL6OpXCcNHR-SlG92I_aem_7OVPAf8029aRx1jEfIh2WA"
+                    target="_blank"
+                    class="mt-8 inline-flex rounded-full bg-[#3289c6] px-6 py-3 text-sm font-medium uppercase tracking-[0.18em] text-black transition hover:scale-[1.02]">
+                    Agendar pelo AppBarber
+                </a>
+            </div>
+
+            <div
+                class="rounded-[2rem] border border-[#3289c6]/20 bg-[linear-gradient(135deg,rgba(199,168,109,0.14),rgba(255,255,255,0.03))] p-8 md:p-10">
+                <p class="text-sm uppercase tracking-[0.4em] text-[#3289c6]">Posicionamento</p>
+
+                <div class="mt-8 space-y-6 text-white/80 leading-8">
+                    <p>
+                        O site da Affonso Barbershop foi pensado para transmitir força, elegância e profissionalismo.
+                        A proposta é que o cliente sinta o nível da marca logo no primeiro acesso.
+                    </p>
+
+                    <p>
+                        Essa estrutura valoriza a experiência, os serviços, o time e a facilidade de contato,
+                        criando uma presença digital forte e memorável.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="border-t border-white/10">
+        <div class="mx-auto max-w-7xl px-6 py-8 flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
+
+            <div>
+                <p class="text-xs uppercase tracking-[0.35em] text-[#3289c6]">Affonso</p>
+                <p class="mt-1 text-lg uppercase tracking-[0.2em] text-white">Barbershop</p>
+            </div>
+
+            <p class="text-sm text-white/50">
+                © 2026 Affonso Barbershop. Todos os direitos reservados.
+            </p>
+        </div>
+    </footer>
+
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
