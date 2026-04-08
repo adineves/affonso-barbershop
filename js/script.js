@@ -1,11 +1,43 @@
-window.addEventListener("scroll", () => {
-  const header = document.querySelector("header");
+const html = document.documentElement;
+const themeToggle = document.getElementById("theme-toggle");
+const backToTop = document.getElementById("backToTop");
 
-  if (window.scrollY > 20) {
-    header.classList.add("bg-black/95");
-    header.classList.remove("bg-[#0b0b0b]/80");
+// carregar tema salvo
+const savedTheme = localStorage.getItem("theme");
+
+if (savedTheme === "light") {
+  html.classList.remove("dark");
+  themeToggle.textContent = "☀️";
+} else {
+  html.classList.add("dark");
+  themeToggle.textContent = "🌙";
+}
+
+// botão de tema
+themeToggle.addEventListener("click", () => {
+  html.classList.toggle("dark");
+
+  if (html.classList.contains("dark")) {
+    localStorage.setItem("theme", "dark");
+    themeToggle.textContent = "🌙";
   } else {
-    header.classList.remove("bg-black/95");
-    header.classList.add("bg-[#0b0b0b]/80");
+    localStorage.setItem("theme", "light");
+    themeToggle.textContent = "☀️";
   }
+});
+
+// botão voltar ao topo
+window.addEventListener("scroll", () => {
+  if (window.scrollY > 300) {
+    backToTop.classList.remove("hidden");
+  } else {
+    backToTop.classList.add("hidden");
+  }
+});
+
+backToTop.addEventListener("click", () => {
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth",
+  });
 });
